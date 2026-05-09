@@ -104,10 +104,10 @@
 
   <div style={{ display:'flex', flexDirection:'column', marginLeft:168, gap:8, zIndex: 10 }}>
     <div style={{ display:'flex', fontSize:38, fontWeight:800, color:'#ffffff', letterSpacing:'-1px', lineHeight:1 }}>
-      {github?.user?.name || github?.user?.login || 'Pushkar Yadav' || 'Name'}
+      {'Pushkar Yadav'}
     </div>
     <div style={{ display:'flex', fontSize:15, color:'rgba(180,165,255,0.8)', fontWeight:400, letterSpacing:'0.3px' }}>
-      {github?.user?.bio || 'B.Tech CSE student focused on full-stack development, real-time systems, and scalable web apps'}
+      {'B.Tech CSE student focused on full-stack development, real-time systems, and scalable web apps'}
     </div>
     <div style={{ display:'flex', gap:8, marginTop:6, flexWrap: 'wrap' }}>
       {((github && github.languages && github.languages.length > 0)
